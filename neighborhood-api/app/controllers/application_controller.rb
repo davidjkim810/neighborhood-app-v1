@@ -5,7 +5,6 @@ class ApplicationController < ActionController::API
     @current_user = user
   end
 
-
 # will return @current_user if it is defined, or it will find a user by the current session token
 
   def current_user

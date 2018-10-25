@@ -1,6 +1,7 @@
 class Api::SessionsController < ApplicationController
 
   def create
+    @user = User.find_by(email:)
   end
 
   def destroy
